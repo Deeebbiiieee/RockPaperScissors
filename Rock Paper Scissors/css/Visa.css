@@ -1,0 +1,24 @@
+:root{
+    --visa-duration:1s
+}
+
+.visa-content{
+    display:none;
+    background: lightgray;
+    text-align: center;
+    margin:10% auto;
+    width:350px;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: visaopen;
+    animation-duration:var(--visa-duration);
+}
+@keyframes visaopen {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

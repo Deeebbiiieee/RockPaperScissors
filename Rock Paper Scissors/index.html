@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script crossorigin="anonymous"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!---<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">**fungerar inte***---->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <Title>Rock Paper Scissor</Title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<!--Footer-->
+<div class="footer">
+    <p>The official website of Rock Paper Scissor</p>
+</div>
+<!--Gif-->
+<img class="center" height="200" src="img/rockpaperscissor.gif" width="300"/>
+
+<!--Regler-->
+<div class="box1">
+    <h2>Välkommen till spelet Sten Sax Påse</h2>
+    <h3>Hur spelar man?</h3>
+    <p>Deltagarna tävlar mot varandra och slår varsin knuten näve,
+        på den tredje gången formar de sina händer i enbart en av dessa tre symboler:
+        sten – det vill säga den knutna näven behålls –
+        sax – handens pek- och långfingrar sträcks ut –
+        eller påse – handen öppnas och sträcks fram oknuten.</p>
+    <p>&#9679;"Sten" ✊ besegrar "sax", men förlorar mot "påse"</p>
+    <p>&#9679;"Sax" ✌ besegrar "påse", men förlorar mot "sten"</p>
+    <p>&#9679;"Påse" ✋ besegrar "sten", men förlorar mot "sax"</p>
+    <p>På så sätt slår varje symbol en viss annan symbol och man kan hamna i oavgjort om man slår samma symbol.</p>
+</div>
+<div class="box2">
+    <h3>Här kan du starta ett nytt spel!</h3>
+    <div class="mx-5 d-flex flex-row align-items-center" id="StartaSpel">
+    </div>
+    <button class="button" onclick="window.location.href='StartaSpel.html'">Starta spel</button>
+</div>
+
+<div class="box3">
+    <h3>Redan startade spel</h3>
+    <h4>Skriv in ditt namn</h4>
+    <div class="mx-5 d-flex flex-row align-items-center" id="JoinGame">
+    <input class="form-control" id="JoinGame-user-name" placeholder="Ange namn" type="text">
+    </div>
+    <button class="button" onclick="window.location.href='JoinGame.html'">Gå med spel</button>
+</div>
+<script charset="utf-8" src="JS/main.js"></script>
+<script charset="utf-8" src="JS/StartaSpel.js"></script>
+<script charset="utf-8" src="JS/spelareNamn.js"></script>
+
+
+</body>
+</html>

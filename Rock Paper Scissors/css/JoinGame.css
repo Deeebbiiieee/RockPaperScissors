@@ -1,0 +1,239 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #6a9289;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: darkslategray;
+    color: #ffffff;
+}
+
+.topnav a.active {
+    background-color: darkslategray;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+:root {
+    --primary-color: #6a9289;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+    --lose-color: #dc3545;
+    --win-color: #28a745;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    line-height: 1.6;
+    background:#ffffff;
+    color: darkslategray;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #6a9289;
+}
+
+.topnav a:hover {
+    background-color: darkslategray;
+    color: #ffffff;
+}
+
+.topnav a.active {
+    background-color: darkslategray;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.restart-btn {
+    display: inline-block;
+    background: #6a9289;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid;
+    margin: 50px;
+    position: revert;
+    top: 20%;
+    left: 20%;
+    border-radius: 50%;
+
+}
+.restart-btn:hover {
+    background: #6a9289;
+    color: darkslategray;
+}
+button{
+    border: 1px solid #ffffff;
+    background: #ffffff;
+}
+button:hover{
+    border: 3px solid darkslategray;
+}
+
+.header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+}
+/* kolumn med spelare och dator */
+
+/*
+.score {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.score p:first-child {
+    background: var(--primary-color);
+}
+
+.score p:last-child {
+    background: var(--primary-color);
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice:hover {
+    color: var(--primary-color);
+}
+.text-win {
+    color: var(--win-color);
+}
+
+.text-lose {
+    color: var(--lose-color);
+}
+
+/*box som visar vinnare eller förlorare*/
+
+/*
+.visa{
+    display: none;
+}
+.visa-content {
+    background: lightgray;
+    text-align: center;
+    margin: 10% auto;
+    width: 350px;
+    border-radius: 10px;
+    padding: 3rem;
+    animation-name: visalopen;
+    animation-duration: var(--visa-duration);
+}
+
+.visa-content h1 {
+    margin-bottom: 1rem;
+}
+
+.visa-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+@keyframes visalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.result{
+    background: lightgray;
+    text-align: center;
+    margin: 10% auto;
+    width: 350px;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: #333333;
+}
+
+/* för att se i mindre telefon format*/
+
+/*
+@media (max-width: 700px) {
+    .choice {
+        font-size: 110px;
+    }
+    .button {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 500px) {
+    .choice {
+        font-size: 80px;
+    }
+    .button{
+        font-size: 80px;
+    }
+}*/

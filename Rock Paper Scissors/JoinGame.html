@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script crossorigin="anonymous"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/36c4c67d0f.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+
+    <title>Join Game</title>
+    <link href="css/JoinGame.css" rel="stylesheet"/>
+
+</head>
+<body>
+<header>
+    <div class="topnav">
+        <a class="active" onclick="window.location.href='index.html'"href="#home">Home</a>
+        <a onclick="window.location.href='index.html'" href="#contact">Contact</a>
+        <a onclick="window.location.href='index.html'" href="#about">About</a>
+    </div>
+</header>
+
+<div class="container">
+    <header class="header">
+        <h1>Sten Sax Påse</h1>
+        <h2> Skriv ett namn</h2>
+            <input id="newGame" class="score" placeholder="namn" type="text" value="" required>
+        <button class="start" onclick="startGames()">Spela Online</button> <!----Lägga till namn och omdirigeras till ONLINE.HTML/---->
+
+    </header>
+</div>
+
+<div>
+    <h3>Aktiva Spel</h3>
+        <button class="restart-btn" onclick="gameList()">Refresh</button>
+        <div id="gameList" class="listgroup">
+        </div>
+    </div>
+</div>
+
+<script charset="utf-8" src="JS/JoinGame.js"></script>
+<script charset="utf-8" src="JS/RPSApi.js"></script>
+</body>
+</html>
